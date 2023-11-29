@@ -7,7 +7,7 @@
       V1
 
         php artisan make:command ToggleDebug
-        
+
 
       V2
 
@@ -17,16 +17,18 @@
    This will create a new file in the app/Console/Commands directory named
 
    ```PHP 
+    ToggleDebug.php
     ToggleDebugbar.php
    ```
 <h4>2. Open the generated command file:</h4>
 
-   Edit the
+   Edit the fille
 
    ```PHP
+   ToggleDebug.php
    ToggleDebugbar.php
    ```
-   file in the app/Console/Commands directory.
+   in the app/Console/Commands directory.
 
 
 <h4>3. Register the command:</h4>

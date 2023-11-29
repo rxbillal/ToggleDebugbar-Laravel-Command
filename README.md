@@ -15,12 +15,14 @@
       ```
 
    This will create a new file in the app/Console/Commands directory named
+
    ```PHP 
     ToggleDebugbar.php
-    ```
+   ```
 <h4>2. Open the generated command file:</h4>
 
-   Edit the 
+   Edit the
+
    ```PHP
    ToggleDebugbar.php
    ```
@@ -30,6 +32,7 @@
 <h4>3. Register the command:</h4>
 
    In the 
+
    ```PHP
    app/Console/Kernel.php
    ```
@@ -43,14 +46,17 @@
    ];
    ```
 <h4>4. Run Command:</h4>
+
    Now, you should be able to use your custom command:
 
    V1
+
    ```PHP
    php artisan debug on
    php artisan debug off
    ```
    V2
+
    ```PHP
    php artisan debug --enable
    php artisan debug --disable

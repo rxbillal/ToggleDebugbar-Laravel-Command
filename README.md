@@ -5,15 +5,11 @@
    In your terminal, run the following command to generate a new Artisan command:
 
       V1
-         ```shell
         php artisan make:command ToggleDebug
-        ```
 
 
       V2
-         ```shell
         php artisan make:command ToggleDebugbar
-        ```
 
 
    This will create a new file in the app/Console/Commands directory named
